@@ -23,8 +23,6 @@ var hasCycle = function (head) {
     runner = runner.next.next;
     if (walker === runner) return true;
   }
-
-  return false;
 };
 
 
