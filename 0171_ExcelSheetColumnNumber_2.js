@@ -4,17 +4,12 @@
  */
 
 var mStr = "-ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-var num = 26;
 
 var titleToNumber = function(s) {
     var result = 0;
-    var len = s.length - 1;
-    var arr = [];
-    arr[0] = 1;
 
-    for (var i=len, j=0; i>=0; i--, j++) {
-      if (j > 0) arr[j] = arr[j-1] * num;
-      result = result + arr[j] * mStr.indexOf(s[i]); 
+    for (var i=0; i < s.length; i=i+1) {
+      result = result * 26 + mStr.indexOf(s[i]); 
     }
 
     return result;
