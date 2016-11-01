@@ -6,7 +6,7 @@ var isPowerOfFour = function(num) {
   if (num ===1) return true;
 
   var mStr = num.toString(4);
-  console.log(mStr);
+  
   return /^10+$/.test(mStr);
 };
 
