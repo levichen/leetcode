@@ -19,5 +19,10 @@
   "bugs": {
     "url": "https://github.com/levichen/leetcode/issues"
   },
-  "homepage": "https://github.com/levichen/leetcode#readme"
+  "homepage": "https://github.com/levichen/leetcode#readme",
+  "standard": {
+    "env": [
+      "mocha"
+    ]
+  }
 }
