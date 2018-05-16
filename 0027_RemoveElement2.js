@@ -5,24 +5,12 @@
  */
 var removeElement = function (nums, val) {
   let idx = 0
-  let changed = false
-
-  for (let i=1; i <= nums.length; i=i+1, idx=idx+1) {
-    if (nums[idx] === val) {
-      changed = true
-      for (let j=i; j < nums.length; j++, i++) {
-        if (nums[j] !== val) break
-      }
-
-      if (i === nums.length) break
-
-      let tmp = nums[idx]
-      nums[idx] = nums[i] 
-      nums[i] = tmp
+  for (let i = 0; i < nums.length; i = i + 1) {
+    if (nums[i] !== val) {
+      nums[i] = nums[idx]
+      idx = idx + 1
     }
   }
-
-  if (changed === false) idx = nums.length
 
   return idx
 }
