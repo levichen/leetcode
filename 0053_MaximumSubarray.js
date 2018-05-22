@@ -1,11 +1,10 @@
 /**
  * @param {number[]} nums
- * @param {number} val
  * @return {number}
  */
-var removeElement = function (nums, val) {
-  return true
-}
+var maxSubArray = function(nums) {
+  return 1
+};
 /** **** End Program ******/
 
 /** **** Start Testing ******/
@@ -15,9 +14,9 @@ var expect = chai.expect
 
 describe('Test Cases', function () {
   it('Test1', function () {
-    const result = removeElement()
+    const result = maxSubArray([1, 2, 3])
 
-    expect(result).to.be.true
+    expect(result).to.be.equal(1)
   })
 })
 
