@@ -3,9 +3,19 @@
  * @return {number}
  */
 var lengthOfLastWord = function(s) {
-  const s2 = s.trim()
-  const arr = s2.split(' ')
-  return arr[arr.length - 1].length
+  let len = 0
+  let tail = s.length - 1
+
+  while (tail >=0 && s[tail] == ' ') {
+    tail = tail - 1
+  }
+
+  while (tail >=0 && s[tail] != ' ') {
+    len = len + 1
+    tail = tail - 1
+  }
+
+  return len
 };
 /** **** End Program ******/
 
