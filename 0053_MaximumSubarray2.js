@@ -9,20 +9,11 @@ var maxSubArray = function (nums) {
   let counter = nums[0]
 
   for (let i = 1; i < nums.length; i = i + 1) {
-    let num = nums[i]
+    if (counter < 0) counter = 0
 
-    if (num > maxNumber && maxNumber > 0) {
-      counter = counter + num
-      maxNumber = Math.max(maxNumber, counter)
-    } else if (num > maxNumber) {
-      counter = num
-      maxNumber = Math.max(maxNumber, counter)
-    } else if (num + counter > 0) {
-      counter = counter + num
-      maxNumber = Math.max(maxNumber, counter)
-    } else {
-      counter = 0
-    }
+    counter = counter + nums[i]
+
+    maxNumber = Math.max(maxNumber, counter)
   }
 
   return maxNumber
