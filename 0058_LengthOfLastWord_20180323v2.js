@@ -2,21 +2,21 @@
  * @param {string} s
  * @return {number}
  */
-var lengthOfLastWord = function(s) {
+var lengthOfLastWord = function (s) {
   let len = 0
   let tail = s.length - 1
 
-  while (tail >=0 && s[tail] == ' ') {
+  while (tail >= 0 && s[tail] === ' ') {
     tail = tail - 1
   }
 
-  while (tail >=0 && s[tail] != ' ') {
+  while (tail >= 0 && s[tail] !== ' ') {
     len = len + 1
     tail = tail - 1
   }
 
   return len
-};
+}
 /** **** End Program ******/
 
 /** **** Start Testing ******/
