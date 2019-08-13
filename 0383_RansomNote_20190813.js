@@ -15,10 +15,9 @@ var canConstruct = function (ransomNote, magazine) {
 
   for (let i = 0; i < ransomNote.length; i = i + 1) {
     const char = ransomNote[i]
-    if (dict[char] === undefined) return false
-    dict[char] = dict[char] - 1
+    if (dict[char] === undefined || dict[char] === 0) return false
 
-    if (dict[char] < 0) return false
+    dict[char] = dict[char] - 1
   }
 
   return true
