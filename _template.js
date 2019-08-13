@@ -17,7 +17,7 @@ describe('Test Cases', function () {
   it('Test1', function () {
     const result = removeElement()
 
-    expect(result).to.be.true
+    expect(result).to.be.equal(true)
   })
 })
 
