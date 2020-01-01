@@ -1,0 +1,11 @@
+/Users/levi/workspace/leetcode/_0463_Island Perimeter_20200101/_0463_Island Perimeter_20200101/bin/Debug/net20/_0463_Island Perimeter_20200101.dll
+/Users/levi/workspace/leetcode/_0463_Island Perimeter_20200101/_0463_Island Perimeter_20200101/bin/Debug/net20/_0463_Island Perimeter_20200101.pdb
+/Users/levi/workspace/leetcode/_0463_Island Perimeter_20200101/_0463_Island Perimeter_20200101/bin/Debug/net20/NUnit.System.Linq.dll
+/Users/levi/workspace/leetcode/_0463_Island Perimeter_20200101/_0463_Island Perimeter_20200101/bin/Debug/net20/nunit.framework.dll
+/Users/levi/workspace/leetcode/_0463_Island Perimeter_20200101/_0463_Island Perimeter_20200101/obj/Debug/net20/_0463_Island Perimeter_20200101.csprojAssemblyReference.cache
+/Users/levi/workspace/leetcode/_0463_Island Perimeter_20200101/_0463_Island Perimeter_20200101/obj/Debug/net20/_0463_Island Perimeter_20200101.csproj.CoreCompileInputs.cache
+/Users/levi/workspace/leetcode/_0463_Island Perimeter_20200101/_0463_Island Perimeter_20200101/obj/Debug/net20/_0463_Island Perimeter_20200101.AssemblyInfoInputs.cache
+/Users/levi/workspace/leetcode/_0463_Island Perimeter_20200101/_0463_Island Perimeter_20200101/obj/Debug/net20/_0463_Island Perimeter_20200101.AssemblyInfo.cs
+/Users/levi/workspace/leetcode/_0463_Island Perimeter_20200101/_0463_Island Perimeter_20200101/obj/Debug/net20/_0463_Island Perimeter_20200101.csproj.CopyComplete
+/Users/levi/workspace/leetcode/_0463_Island Perimeter_20200101/_0463_Island Perimeter_20200101/obj/Debug/net20/_0463_Island Perimeter_20200101.dll
+/Users/levi/workspace/leetcode/_0463_Island Perimeter_20200101/_0463_Island Perimeter_20200101/obj/Debug/net20/_0463_Island Perimeter_20200101.pdb
