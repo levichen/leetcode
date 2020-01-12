@@ -1,18 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="92b9bcd4-4fca-4cbe-8a19-45590156a877" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea._475_Heaters_20200103/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea._475_Heaters_20200103/.idea/contentModel.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea._475_Heaters_20200103/.idea/indexLayout.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea._475_Heaters_20200103/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea._475_Heaters_20200103/.idea/projectSettingsUpdater.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea._475_Heaters_20200103/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea._475_Heaters_20200103/riderModule.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_475_Heaters_20200103.sln" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_475_Heaters_20200103/UnitTest1.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_475_Heaters_20200103/_475_Heaters_20200103.csproj" beforeDir="false" />
+    <list default="true" id="ed35cdac-0418-4128-98cb-30b33681d224" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea._0475_Heaters_20200103/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea._0475_Heaters_20200103/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_0482_LicenseKeyFormatting_202001/.idea/.idea._0482_LicenseKeyFormatting_202001/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../_0482_LicenseKeyFormatting_202001/.idea/.idea._0482_LicenseKeyFormatting_202001/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +13,17 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="1WBvnaJeCZVsyqOoHZliyjBYhjs" />
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/_0475_Heaters_20200103/UnitTest1.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/_0475_Heaters_20200103/UnitTest1.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1WIJVJCIIznmkgDuWUS3vulXSn4" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -33,6 +34,8 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="TWShift.4" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -51,12 +54,12 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="92b9bcd4-4fca-4cbe-8a19-45590156a877" name="Default Changelist" comment="" />
-      <created>1578635969772</created>
+      <changelist id="ed35cdac-0418-4128-98cb-30b33681d224" name="Default Changelist" comment="" />
+      <created>1578831198063</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1578635969772</updated>
-      <workItem from="1578635971518" duration="233000" />
+      <updated>1578831198063</updated>
+      <workItem from="1578831199627" duration="281000" />
     </task>
     <servers />
   </component>
