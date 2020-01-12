@@ -1,5 +1,4 @@
-using System;
-using System.Linq;
+using System.Text;
 using NUnit.Framework;
 
 namespace _0482_LicenseKeyFormatting_202001
@@ -19,7 +18,7 @@ namespace _0482_LicenseKeyFormatting_202001
         {
             Assert.AreEqual("5F3Z-2E9W", _target.LicenseKeyFormatting("5F3Z-2e-9-w", 4));
         }
-        
+
         [Test]
         public void Test2()
         {
@@ -31,36 +30,17 @@ namespace _0482_LicenseKeyFormatting_202001
     {
         public string LicenseKeyFormatting(string str, int num)
         {
-            double lenOfStr = str.Length;
-            double sharedGroupLength = str.Length;
+            var license = str.Replace("-", "").ToUpper();
 
-            while (sharedGroupLength / num == 0)
-            {
-                sharedGroupLength = sharedGroupLength - 1;
-            }
-            
-            double firstGroupLength = sharedGroupLength;
+            var length = license.Length;
+            var remainder = length % num;
 
-            if (sharedGroupLength != str.Length)
+            for (var i = length - num; i > 0; i -= num)
             {
-                firstGroupLength = str.Length - sharedGroupLength;
+                license = license.Insert(i, "-");
             }
 
-            var result = "";
-            var index = 0;
-            
-            while (firstGroupLength != 0)
-            {
-                if (str[index] != '-')
-                {
-                    result = string.Concat(result, str[index]);
-                    firstGroupLength -= 1;
-                }
-
-                index += 1;
-            }
-
-            return result;
+            return license;
         }
     }
 }
