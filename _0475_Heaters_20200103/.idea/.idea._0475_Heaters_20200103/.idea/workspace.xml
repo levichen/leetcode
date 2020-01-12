@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ed35cdac-0418-4128-98cb-30b33681d224" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea._0475_Heaters_20200103/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea._0475_Heaters_20200103/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../_0482_LicenseKeyFormatting_202001/.idea/.idea._0482_LicenseKeyFormatting_202001/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../_0482_LicenseKeyFormatting_202001/.idea/.idea._0482_LicenseKeyFormatting_202001/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="ed35cdac-0418-4128-98cb-30b33681d224" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -59,7 +56,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1578831198063</updated>
-      <workItem from="1578831199627" duration="281000" />
+      <workItem from="1578831199627" duration="469000" />
     </task>
     <servers />
   </component>

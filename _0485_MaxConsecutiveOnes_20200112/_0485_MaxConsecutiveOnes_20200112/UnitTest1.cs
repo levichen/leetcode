@@ -16,7 +16,13 @@ namespace Tests
         [Test]
         public void Test1()
         {
-            Assert.AreEqual(3, _target.FindMaxConsecutiveOnes(new int {1, 1, 0, 1, 1, 1}))};
+            Assert.AreEqual(3, _target.FindMaxConsecutiveOnes(new int[] {1, 1, 0, 1, 1, 1}));
+        }
+
+        [Test]
+        public void Test2()
+        {
+            Assert.AreEqual(2, _target.FindMaxConsecutiveOnes(new int[] {1, 0, 1, 1, 0, 1}));
         }
     }
 
@@ -24,7 +30,25 @@ namespace Tests
     {
         public int FindMaxConsecutiveOnes(int[] nums)
         {
-            int result = Int32.MinValue;
+            var result = int.MinValue;
+            var tmp = 0;
+
+            foreach (var num in nums)
+            {
+                if (num == 0)
+                {
+                    result = Math.Max(result, tmp);
+                    tmp = 0;
+                }
+                else
+                {
+                    tmp += 1;
+                }
+            }
+
+            result = Math.Max(result, tmp);
+
+            return result;
         }
     }
 }
