@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_0507_PerfectNumber_20200209", "_0507_PerfectNumber_20200209\_0507_PerfectNumber_20200209.csproj", "{EC7C99D2-ED2F-43D3-9DD6-BB9696E9D8F1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EC7C99D2-ED2F-43D3-9DD6-BB9696E9D8F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC7C99D2-ED2F-43D3-9DD6-BB9696E9D8F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC7C99D2-ED2F-43D3-9DD6-BB9696E9D8F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC7C99D2-ED2F-43D3-9DD6-BB9696E9D8F1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
